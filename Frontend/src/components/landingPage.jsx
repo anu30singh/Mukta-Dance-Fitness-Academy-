@@ -17,7 +17,6 @@ const LandingPage = () => {
         Your browser does not support the video tag.
       </video>
 
-      {/* Overlay for Content */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Semi-transparent overlay */}
       {/* Navbar */}
       <nav className="bg-black-900 p-4">
@@ -25,9 +24,7 @@ const LandingPage = () => {
         <div className="flex items-center space-x-2 flex-shrink-0">
             <img src={Logo} alt="Mukta Saxena's Academy Logo" className="w-24 h-24" />
           </div>
-        {/* <div className="flex items-center space-x-2">
-            <img src={Logo} alt="Mukta Saxena's Academy Logo" className="w-24 h-24" />
-        </div> */}
+
           <div className="flex flex-1 justify-center space-x-6">
             <a href="#" className="hover:text-pink-400">Home</a>
             <a href="#" className="hover:text-pink-400">About Us</a>
