@@ -35,13 +35,13 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-gray-100 py-12">
+    <div className="bg-black py-12">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-pink-500">Contact Us</h2>
-        <div className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg">
+        <div className="max-w-md mx-auto bg-black p-8 rounded-lg shadow-white">
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">Name</label>
+              <label className="block text-white text-sm font-bold mb-2" htmlFor="name">Name</label>
               <input
                 type="text"
                 id="name"
@@ -53,7 +53,7 @@ const ContactForm = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">Email</label>
+              <label className="block text-white text-sm font-bold mb-2" htmlFor="email">Email</label>
               <input
                 type="email"
                 id="email"
@@ -65,7 +65,7 @@ const ContactForm = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">Message</label>
+              <label className="block text-white text-sm font-bold mb-2" htmlFor="message">Message</label>
               <textarea
                 id="message"
                 name="message"
