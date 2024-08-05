@@ -28,14 +28,16 @@ const LandingPage = () => {
           <div className="flex flex-1 justify-center space-x-6">
             <a href="#" className="hover:text-pink-400">Home</a>
             <a href="#" className="hover:text-pink-400">About Us</a>
-            <a href="#" className="hover:text-pink-400">Classes</a>
-            <a href="#" className="hover:text-pink-400">Events</a>
+            <a href="#" className="hover:text-pink-400">Services</a>
             <a href="#" className="hover:text-pink-400">Gallery</a>
             <a href="#" className="hover:text-pink-400">Testimonials</a>
             <a href="#" className="hover:text-pink-400">Contact Us</a>
           </div>
+         
         </div>
       </nav>
+      
+      
 
       {/* Main Content */}
       <div className="relative z-10 container mx-auto flex flex-1 items-center py-12 ">
@@ -49,9 +51,15 @@ const LandingPage = () => {
             <p className="text-xl font-light mb-4">
               Join Mukta Dance & Fitness Academy for a Journey of Grace, Strength, and Wellness
             </p>
+            
             <a href="#" className="inline-block px-4 py-2 bg-pink-500 text-white font-semibold rounded-lg hover:bg-pink-600 transition-colors duration-300">
               Learn More
             </a>
+            <div className="relative z-10 container mx-auto text-center mt-2 mb-4">
+  <p className="text-sm text-pink-500 font-bold">
+    We are open for collaboration with fitness gyms, companies, and other organizations.
+  </p>
+</div>
           </div>
           
           <img src={Landing} alt="Dance and Fitness" className="w-full max-w-lg h-auto" />
