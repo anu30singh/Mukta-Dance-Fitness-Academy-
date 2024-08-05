@@ -4,6 +4,7 @@ import AboutUs from './components/AboutUs';
 import Service from './components/Services';
 import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import './index.css'; 
 
@@ -15,6 +16,7 @@ const App = () => {
       <Service />
       <Gallery />
       <Testimonials />
+      <ContactForm />
       <Footer />
 
     </div>
