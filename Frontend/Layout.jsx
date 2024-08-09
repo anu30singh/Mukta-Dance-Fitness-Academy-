@@ -42,11 +42,11 @@ function Layout() {
                     {/* Navigation Links */}
                     <div className={`lg:flex lg:items-center lg:justify-center lg:space-x-8 ${isOpen ? 'block' : 'hidden'} lg:flex lg:w-full lg:justify-center`}>
                         <NavLink to="/" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">Home</NavLink>
-                        <NavLink to="/about" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">About Us</NavLink>
+                        <NavLink to="/about" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">Our Story</NavLink>
                         <NavLink to="/service" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">Services</NavLink>
-                        <NavLink to="/gallery" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">Gallery</NavLink>
-                        <NavLink to="/test" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">Testimonials</NavLink>
-                        <NavLink to="/contactus" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">Contact Us</NavLink>
+                        <NavLink to="/gallery" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">Media</NavLink>
+                        <NavLink to="/test" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">Reviews</NavLink>
+                        <NavLink to="/contactus" className="text-white font-semibold hover:text-pink-500 hover:underline px-4 py-2" activeClassName="underline">Reach Out</NavLink>
                     </div>
                 </div>
             </nav>
