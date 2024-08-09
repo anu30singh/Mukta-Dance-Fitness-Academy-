@@ -32,16 +32,7 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Additional Links */}
-          <div>
-            <h3 className="text-2xl font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><a href="/" className="hover:text-pink-500">Home</a></li>
-              <li><a href="/about" className="hover:text-pink-500">About Us</a></li>
-              <li><a href="/services" className="hover:text-pink-500">Services</a></li>
-              <li><a href="/contact" className="hover:text-pink-500">Contact</a></li>
-            </ul>
-          </div>
+          
         </div>
         
         <div className="mt-8 text-center border-t border-gray-700 pt-4">
