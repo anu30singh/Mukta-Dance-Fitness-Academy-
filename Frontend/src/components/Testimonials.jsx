@@ -3,7 +3,7 @@ import React from 'react';
 const testimonials = [
   {
     name: 'Anushka',
-    position: 'Dance Enthusiast',
+    position: 'Member',
     quote: 'The classes at Mukta Dance & Fitness Academy have transformed my fitness journey. The instructors are top-notch, and the community is incredibly supportive.',
     image: 'https://via.placeholder.com/100'
   },
@@ -14,7 +14,7 @@ const testimonials = [
     image: 'https://via.placeholder.com/100'
   },
   {
-    name: 'Vartika',
+    name: 'Seema',
     position: 'Member',
     quote: 'I’ve tried many fitness centers, but Mukta Dance & Fitness Academy stands out. The energy and enthusiasm of the team are unmatched!',
     image: 'https://via.placeholder.com/100'
