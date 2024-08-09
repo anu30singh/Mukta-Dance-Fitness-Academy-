@@ -1,19 +1,34 @@
 import React from 'react';
+import img1 from '../assets/Gallery/img1.jpg';
+import img2 from '../assets/Gallery/img2.jpg';
+import img3 from '../assets/Gallery/img3.jpg';
+import img4 from '../assets/Gallery/img4.jpg';
+import img5 from '../assets/Gallery/img5.jpg';
+import img6 from '../assets/Gallery/img6.jpg';
+import img7 from '../assets/Gallery/img7.jpg';
+import img8 from '../assets/Gallery/img8.jpg';
+import img9 from '../assets/Gallery/img9.jpg';
+import img10 from '../assets/Gallery/img10.jpg';
+import img11 from '../assets/Gallery/img11.jpg';
+import img12 from '../assets/Gallery/img12.jpg';
+
+// Continue importing as needed...
 
 const Gallery = () => {
   const images = [
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200',
-    'https://via.placeholder.com/300x200'
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12
+    // Add the rest of your images here...
   ];
 
   return (
