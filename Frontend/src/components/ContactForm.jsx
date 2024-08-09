@@ -20,7 +20,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/api/contact', formData);
+      const response = await axios.post('http://localhost:5000/api/contact', formData);
       if (response.status === 200) {
         setStatus('Your message has been sent successfully!');
         setFormData({
@@ -82,7 +82,7 @@ const ContactForm = () => {
             >
               Send Message
             </button>
-            {status && <p className="mt-4 text-center text-lg font-semibold">{status}</p>}
+            {status && <p className="mt-4 text-center text-white text-lg font-semibold">{status}</p>}
           </form>
         </div>
       </div>

@@ -7,11 +7,10 @@ require('dotenv').config(); // Load environment variables from .env file
 const app = express();
 app.use(bodyParser.json());
 
-
-const allowedOrigins = [
-  'http://localhost:3000', // Development URL
-  'https://mukta-dance-fitness-academy.vercel.app' // Production URL
-];
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  next();
+});
 
 app.use(cors({
   origin: (origin, callback) => {
@@ -35,8 +34,8 @@ app.post('/api/contact', (req, res) => {
   const { name, email, message } = req.body;
 
   const mailOptions = {
-    from: email,
-    to: process.env.RECEIVER_EMAIL, // Use environment variable for the receiver's email
+    from: process.env.EMAIL_USER,  // Sender's email address
+    to: process.env.EMAIL_USER,    // Receiver's email address (same as sender in this case)
     subject: `Contact Form Submission from ${name}`,
     text: `Message from ${name} (${email}):\n\n${message}`
   };
