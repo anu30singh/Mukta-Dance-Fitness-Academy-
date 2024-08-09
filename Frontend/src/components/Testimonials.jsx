@@ -20,7 +20,7 @@ const testimonials = [
     image: 'https://via.placeholder.com/100'
   },
   {
-    name: 'Sharuk khan',
+    name: 'Sakshi',
     position: 'Member',
     quote: 'Great place to improve your dance skills or start from scratch. The personalized attention and expert guidance make a big difference.',
     image: 'https://via.placeholder.com/100'

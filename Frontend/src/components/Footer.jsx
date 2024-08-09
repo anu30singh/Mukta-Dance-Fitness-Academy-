@@ -12,7 +12,6 @@ const Footer = () => {
             <p className="mb-2"> Park Royal Apartments, plot no 10A,</p>
             <p className="mb-2"> Dwarka Sector 9, Dwarka, Delhi, 110077</p>
             <p className="mb-2">Phone: (+91) 9650002213</p>
-            <p>Email: <a href="mailto:Manyasaxena2006@gmail.com" className="text-pink-500">Manyasaxena2006@gmail.com</a></p>
           </div>
           
           {/* Social Media Links */}

@@ -16,7 +16,7 @@ const AboutUs = () => {
             <img src={FounderImage} alt="Founder" className="w-full h-auto rounded-lg shadow-md mb-6" />
             <h3 className="text-2xl font-semibold text-center mb-2 text-pink-400">Founder - Mukta Saxena</h3>
             <p className="text-justify text-white flex-1">
-              Mukta Saxena is the visionary founder of Mukta Dance & Fitness Academy. With over 20 years of experience in dance and fitness, she has dedicated her life to helping others achieve their wellness goals through the art of movement. Mukta believes in the transformative power of dance and fitness, and her passion for these disciplines is evident in every class she teaches.Great passion for dance and fitness.
+              Mukta Saxena is the visionary founder of Mukta Dance & Fitness Academy. With over 10 years of experience in dance and fitness, she has dedicated her life to helping others achieve their wellness goals through the art of movement. Mukta believes in the transformative power of dance and fitness, and her passion for these disciplines is evident in every class she teaches.
             </p>
             
           </div>
