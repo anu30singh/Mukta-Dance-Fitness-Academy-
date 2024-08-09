@@ -9,19 +9,19 @@ const testimonials = [
   },
   {
     name: 'Reema',
-    position: 'Fitness Coach',
+    position: 'Member',
     quote: 'A fantastic place for anyone looking to stay fit and learn dance. The variety of classes and professional staff make every session enjoyable.',
     image: 'https://via.placeholder.com/100'
   },
   {
     name: 'Vartika',
-    position: 'Health Blogger',
+    position: 'Member',
     quote: 'I’ve tried many fitness centers, but Mukta Dance & Fitness Academy stands out. The energy and enthusiasm of the team are unmatched!',
     image: 'https://via.placeholder.com/100'
   },
   {
     name: 'Sharuk khan',
-    position: 'Professional Dancer',
+    position: 'Member',
     quote: 'Great place to improve your dance skills or start from scratch. The personalized attention and expert guidance make a big difference.',
     image: 'https://via.placeholder.com/100'
   }

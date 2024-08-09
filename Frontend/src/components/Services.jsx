@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Service = () => {
+const Services = () => {
   return (
     <div className="bg-black text-white py-12">
       <div className="container mx-auto px-4">
@@ -41,6 +41,7 @@ const Service = () => {
               <li>Bollywood</li>
               <li>Kathak</li>
               <li>Wedding Choreography</li>
+              <li>Dance Classes For Girls</li>
             </ul>
           </div>
 
@@ -63,4 +64,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Services;

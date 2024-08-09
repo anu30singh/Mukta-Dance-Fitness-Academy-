@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+
 import Landing from '../assets/Landing.gif'; 
 import LandingPageVideo from '../assets/LandingPageVideo.mp4'; 
 import Black from '../assets/Black.gif';
@@ -19,28 +21,7 @@ const LandingPage = () => {
 
       <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Semi-transparent overlay */}
 
-      {/* Navbar */}
-      <nav className="bg-black p-4">
-        <div className="relative z-10 container mx-auto flex flex-wrap items-center justify-between">
-          <div className="flex items-center space-x-2 flex-shrink-0">
-            <img src={Logo} alt="Mukta Saxena's Academy Logo" className="w-16 h-16 sm:w-24 sm:h-24" />
-          </div>
-
-          <div className="hidden md:flex flex-1 justify-center space-x-6">
-            <a href="#" className="hover:text-pink-400">Home</a>
-            <a href="#" className="hover:text-pink-400">About Us</a>
-            <a href="#" className="hover:text-pink-400">Services</a>
-            <a href="#" className="hover:text-pink-400">Gallery</a>
-            <a href="#" className="hover:text-pink-400">Testimonials</a>
-            <a href="#" className="hover:text-pink-400">Contact Us</a>
-          </div>
-
-          {/* Mobile menu */}
-          <div className="md:hidden flex items-center">
-            <button className="text-white">Menu</button>
-          </div>
-        </div>
-      </nav>
+     
 
       {/* Main Content */}
       <div className="relative z-10 container mx-auto flex flex-col md:flex-row items-center py-12 px-4">
@@ -56,9 +37,7 @@ const LandingPage = () => {
             Join Mukta Dance & Fitness Academy for a Journey of Grace, Strength, and Wellness
           </p>
 
-          <a href="#" className="inline-block px-4 py-2 bg-pink-500 text-white font-semibold rounded-lg hover:bg-pink-600 transition-colors duration-300">
-            Learn More
-          </a>
+         
 
           <div className="mt-4">
             <p className="text-sm text-pink-500 font-bold">
