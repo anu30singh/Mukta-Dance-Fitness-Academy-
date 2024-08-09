@@ -19,9 +19,9 @@ function Layout() {
     <NavLink to="/" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Home</NavLink>
     <NavLink to="/about" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">About Us</NavLink>
     <NavLink to="/service" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Services</NavLink>
-    <NavLink to="/gallery" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Gallery</NavLink>
-    <NavLink to="/test" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Testimonials</NavLink>
-    <NavLink to="/contactus" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Contact Us</NavLink>
+    <NavLink to="/gallery" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Media</NavLink>
+    <NavLink to="/test" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Reviews</NavLink>
+    <NavLink to="/contactus" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Reach Out</NavLink>
 </div>
 
                 </div>
