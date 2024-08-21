@@ -33,7 +33,7 @@ const ContactForm = () => {
 
       {/* Right Contact Us Card */}
       <div className="lg:w-1/2 flex items-center justify-center p-8">
-        <div className="max-w-md w-full bg-black p-8 rounded-lg shadow-lg">
+        <div className="max-w-md w-full bg-black text-black p-8 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold mb-6 text-center text-pink-500">Let's Connect</h2>
           <form onSubmit={(e) => {
             e.preventDefault();
