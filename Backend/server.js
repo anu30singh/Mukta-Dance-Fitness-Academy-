@@ -33,8 +33,8 @@ app.post('/api/contact', (req, res) => {
   const { name, email, message } = req.body;
 
   const mailOptions = {
-    from: email,  // Sender's email address
-    to: process.env.EMAIL_USER,    // Receiver's email address (same as sender in this case)
+    from: email, 
+    to: process.env.EMAIL_USER,   
     subject: `Contact Form Submission from ${name}`,
     text: `Message from ${name} (${email}):\n\n${message}`
   };
