@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import ContactImage from '../assets/ContactUs.svg'; // Adjust the path as needed
+import ContactImage from '../assets/ContactUs.svg'; 
 
 const ContactForm = () => {
   const [email, setEmail] = useState('');
@@ -10,7 +10,7 @@ const ContactForm = () => {
 
   const sendMail = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/contactus', {
+      const response = await axios.post('http://localhost:5000/api/contact', {
         email,    // Visitor's email
       subject,  // Subject of the message
       message   // Message content,
