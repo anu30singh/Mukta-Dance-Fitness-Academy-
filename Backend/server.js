@@ -30,13 +30,13 @@ const transporter = nodemailer.createTransport({
 });
 
 app.post('/api/contact', (req, res) => {
-  const { name, email, message } = req.body;
+  const { email, subject , message } = req.body;
 
   const mailOptions = {
     from: email, 
     to: process.env.EMAIL_USER,   
-    subject: `Contact Form Submission from ${name}`,
-    text: `Message from ${name} (${email}):\n\n${message}`
+    subject: `Contact Form Submission from ${subject}`,
+    text: `Message from ${subject} (${email}):\n\n${message}`
   };
 
   transporter.sendMail(mailOptions, (error, info) => {

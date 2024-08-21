@@ -10,8 +10,10 @@ const ContactForm = () => {
 
   const sendMail = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/', {
-        params: { email, subject, message },
+      const response = await axios.get('http://localhost:5000/contactus', {
+        email,    // Visitor's email
+      subject,  // Subject of the message
+      message   // Message content,
       });
       if (response.status === 200) {
         setStatus('Your message has been sent successfully!');
