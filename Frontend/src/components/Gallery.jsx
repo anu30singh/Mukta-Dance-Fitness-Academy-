@@ -11,7 +11,7 @@ import img9 from '../assets/Gallery/img9.jpg';
 import img10 from '../assets/Gallery/img10.jpg';
 import img11 from '../assets/Gallery/img11.jpg';
 import img12 from '../assets/Gallery/img12.jpg';
-import img13 from '../assets/Gallery/img13.jpg';
+// import img13 from '../assets/Gallery/img13.jpg';
 import img14 from '../assets/Gallery/img14.jpg';
 import img15 from '../assets/Gallery/img15.jpg';
 import img16 from '../assets/Gallery/img16.jpg';
@@ -50,7 +50,6 @@ const Gallery = () => {
     img10,
     img11,
     img12,
-    img13,
     img14,img15,img16,img17,img18,img19,img20 , img21, img22 , img23, img24, img25, img26 , img27 , img28,img29,img30,img31,img32,img33
   ];
 
