@@ -6,6 +6,7 @@ import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import DandiyaNightPage from './components/DandiyaNight';
 import './index.css'; 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Gallery />
       <Testimonials />
       <ContactForm />
+      <DandiyaNightPage />
       <Footer />
 
     </div>

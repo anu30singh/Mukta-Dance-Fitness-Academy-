@@ -5,62 +5,70 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 
-import Image1 from '../assets/dandiya1.jpg';
-import Image2 from '../assets/dandiya2.jpg';
-import Image3 from '../assets/dandiya3.jpg';
+import Image1 from '../assets/Dandiya/dandiya1.jpeg';
+import Image2 from '../assets/Dandiya/dandiya2.jpeg';
+import Image3 from '../assets/Dandiya/dandiya4.jpeg';
+import Image4 from '../assets/Dandiya/dandiya5.jpeg';
+import Image5 from '../assets/Dandiya/dandiya6.jpeg';
+import Image6 from '../assets/Dandiya/dandiya7.jpeg';
+import Image7 from '../assets/Dandiya/dandiya8.jpeg';
 
 const DandiyaNightPage = () => {
   
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
   };
 
   return (
-    <div className="bg-gradient-to-b from-pink-600 to-yellow-500 min-h-screen text-white flex flex-col items-center">
+    <div className="bg-black min-h-screen text-white flex flex-col items-center">
       {/* Buy Tickets Now Button */}
       <div className="w-full flex justify-center py-8">
-        <Link to="/buy-tickets" className="bg-white text-pink-600 py-3 px-8 rounded-full font-bold text-lg hover:bg-pink-100 transition duration-300">
+        <Link to="/buy-tickets" className="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-3 px-8 rounded-full font-bold text-lg hover:opacity-90 transition duration-300 shadow-lg">
           Buy Tickets Now
         </Link>
       </div>
 
       {/* Image Slider */}
-      <div className="w-11/12 md:w-3/4 lg:w-1/2 mt-8">
-        <Slider {...settings}>
-          <div>
-            <img src={Image1} alt="Dandiya Night 1" className="w-full h-auto rounded-lg shadow-lg" />
+      <div className="w-full max-w-4xl h-80 md:h-96 lg:h-[600px] mt-8 mb-12 overflow-hidden rounded-lg shadow-lg">
+        <Slider {...settings} className="w-full h-full">
+          <div className="flex items-center justify-center">
+            <img src={Image1} alt="Dandiya Night 1" className="w-full h-full object-cover rounded-lg shadow-md" />
           </div>
-          <div>
-            <img src={Image2} alt="Dandiya Night 2" className="w-full h-auto rounded-lg shadow-lg" />
+          <div className="flex items-center justify-center">
+            <img src={Image2} alt="Dandiya Night 2" className="w-full h-full object-cover rounded-lg shadow-md" />
           </div>
-          <div>
-            <img src={Image3} alt="Dandiya Night 3" className="w-full h-auto rounded-lg shadow-lg" />
+          <div className="flex items-center justify-center">
+            <img src={Image3} alt="Dandiya Night 3" className="w-full h-full object-cover rounded-lg shadow-md" />
+          </div>
+          <div className="flex items-center justify-center">
+            <img src={Image4} alt="Dandiya Night 4" className="w-full h-full object-cover rounded-lg shadow-md" />
+          </div>
+          <div className="flex items-center justify-center">
+            <img src={Image5} alt="Dandiya Night 5" className="w-full h-full object-cover rounded-lg shadow-md" />
+          </div>
+          <div className="flex items-center justify-center">
+            <img src={Image6} alt="Dandiya Night 6" className="w-full h-full object-cover rounded-lg shadow-md" />
+          </div>
+          <div className="flex items-center justify-center">
+            <img src={Image7} alt="Dandiya Night 7" className="w-full h-full object-cover rounded-lg shadow-md" />
           </div>
         </Slider>
       </div>
 
       {/* Event Content */}
       <div className="mt-12 px-6 md:px-12 lg:px-24 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6">Get Ready for an Unforgettable Dandiya Night!</h2>
+        <h2 className="text-3xl md:text-4xl font-extrabold mb-8 text-pink-400">Prepare for an Unforgettable Dandiya Night!</h2>
+        <p className="text-lg md:text-xl leading-relaxed mb-6">
+          Immerse yourself in the vibrant rhythms and colorful festivities of our Dandiya Night event. Whether you're a seasoned dancer or new to the dance floor, our event offers a captivating blend of traditional and modern music that promises to get your feet moving and your spirits soaring.
+        </p>
         <p className="text-lg md:text-xl leading-relaxed">
-          Join us for a night full of rhythm, color, and joy at our Dandiya Night event! Dance to the beats of traditional 
-          and modern music, twirl with your friends, and enjoy the festive spirit with a vibrant community. Whether you're 
-          a seasoned dancer or a newcomer, this event promises to be a night to remember.
-        </p>
-        <p className="text-lg md:text-xl mt-4 leading-relaxed">
-          Our previous events have been a huge success, with stunning performances, energetic crowds, and lots of fun. 
-          Don’t miss out on this year's event, which promises to be even bigger and better. Come dressed in your best 
-          traditional attire and be part of a cultural extravaganza like no other!
-        </p>
-        <p className="text-lg md:text-xl mt-4 leading-relaxed">
-          Book your tickets now and secure your spot at the most awaited Dandiya Night of the year. Let's create 
-          unforgettable memories together!
+          Secure your spot at the year's most eagerly awaited Dandiya Night. Book your tickets now and be part of this sensational celebration. Let's make memories that will last a lifetime!
         </p>
       </div>
     </div>

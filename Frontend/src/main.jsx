@@ -10,6 +10,7 @@ import ContactForm from './components/ContactForm.jsx'; // Adjust the path as ne
 import Gallery from './components/Gallery.jsx'; // Adjust the path as needed
 import Services from './components/Services.jsx'; // Adjust the path as needed
 import Testimonials from './components/Testimonials.jsx'; // Adjust the path as needed
+import DandiyaNightPage from './components/DandiyaNight.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: "gallery", element: <Gallery /> },
       { path: "test", element: <Testimonials /> },
       { path: "contactus", element: <ContactForm /> },
+      {path: "dandiya-night", element: <DandiyaNightPage />}
     ]
   }
 ]);
