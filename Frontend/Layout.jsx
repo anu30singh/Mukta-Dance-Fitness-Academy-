@@ -15,7 +15,7 @@ function Layout() {
                     </div>
 
                     {/* Navigation Links */}
-                    <div className="flex flex-1 justify-center space-x-4">
+                    <div className="flex flex-1 justify-left space-x-4">
     <NavLink to="/" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Home</NavLink>
     <NavLink to="/about" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">About Us</NavLink>
     <NavLink to="/service" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Services</NavLink>
