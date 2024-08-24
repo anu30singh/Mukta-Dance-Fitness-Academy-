@@ -68,7 +68,7 @@ const DandiyaNightPage = () => {
           Immerse yourself in the vibrant rhythms and colorful festivities of our Dandiya Night event. Whether you're a seasoned dancer or new to the dance floor, our event offers a captivating blend of traditional and modern music that promises to get your feet moving and your spirits soaring.
         </p>
         <p className="text-lg md:text-xl leading-relaxed">
-          Secure your spot at the year's most eagerly awaited Dandiya Night.
+          Secure your spot at the year's most eagerly awaited Dandiya Night. 
         </p>
       </div>
     </div>
