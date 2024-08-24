@@ -14,13 +14,16 @@ const Services = () => {
             <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
               <h4 className="text-xl font-semibold text-white mb-4">Morning Batches</h4>
               <ul className="list-disc list-inside text-white">
+                <li>8:00 AM - 9:00 AM</li>
                 <li>9:00 AM - 10:00 AM</li>
-                <li>10:00 AM - 11:00 AM</li>
+                <li>10:00 AM -11:00 AM</li>
+
               </ul>
             </div>
             <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg shadow-lg p-6 transition-transform transform hover:scale-105">
               <h4 className="text-xl font-semibold text-white mb-4">Evening Batches</h4>
               <ul className="list-disc list-inside text-white">
+                <li>4:00 PM - 5:00 PM (Girls Dance Batch)</li> 
                 <li>6:00 PM - 7:00 PM</li>
                 <li>7:00 PM - 8:00 PM</li>
               </ul>
@@ -35,11 +38,10 @@ const Services = () => {
             <h3 className="text-3xl font-semibold mb-6 text-center text-white">What We Provide</h3>
             <ul className="list-disc list-inside text-lg text-white space-y-4">
               <li>Zumba and Aerobics</li>
-              <li>Power Yoga</li>
-              <li>Steppers</li>
-              <li>Pilates</li>
-              <li>Bollywood</li>
-              <li>Kathak</li>
+              <li>Power Yoga & Pilates</li>
+              <li>Fuctional Strength Training</li>
+              <li>Bollyfit & Bhangra</li>
+              <li>Bollywood & Semi Classicals</li>
               <li>Wedding Choreography</li>
               <li>Dance Classes For Girls</li>
             </ul>
