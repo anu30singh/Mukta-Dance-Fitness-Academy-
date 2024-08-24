@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
-import Logo from '../Frontend/src/assets/Logo.png'; // Adjust the path as needed
-import Footer from '../Frontend/src/components/Footer'; // Adjust the path as needed
+import Logo from '../Frontend/src/assets/Logo.png'; 
+import Footer from '../Frontend/src/components/Footer'; 
 
 function Layout() {
     return (

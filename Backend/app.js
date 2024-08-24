@@ -28,7 +28,7 @@ function sendEmail({ email, subject, message }) {
       subject: subject,
       html: `
       <p>${message}</p>
-      <p>Best Regards</p>
+      
       `,
     };
 

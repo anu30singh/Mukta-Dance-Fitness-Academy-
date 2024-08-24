@@ -21,7 +21,11 @@ const LandingPage = () => {
 
       <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Semi-transparent overlay */}
 
-     
+      <div className="relative z-10 mt-4 flex justify-center">
+        <Link to="/dandiya-night" className="bg-pink-500 text-white py-2 px-6 rounded-full hover:bg-pink-600 transition duration-300">
+          Join Dandiya Night Event
+        </Link>
+      </div>
 
       {/* Main Content */}
       <div className="relative z-10 container mx-auto flex flex-col md:flex-row items-center py-12 px-4">
