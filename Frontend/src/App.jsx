@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import DandiyaNightPage from './components/DandiyaNight';
+import Events from './components/events';
 import './index.css'; 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Testimonials />
       <ContactForm />
       <DandiyaNightPage />
+      <Events />
       <Footer />
 
     </div>
