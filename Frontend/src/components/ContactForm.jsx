@@ -17,10 +17,10 @@ const ContactForm = () => {
           <div className="mb-6">
             <h3 className="text-xl font-bold mb-2">Contact Information</h3>
             <p className="mb-2">
-              <span className="font-semibold">Phone:</span> +1 (555) 123-4567
+              <span className="font-semibold">Phone:</span> (+91) 9650002213
             </p>
             <p className="mb-4">
-              <span className="font-semibold">Email:</span> <a href="mailto:info@example.com" className="text-pink-500 hover:underline">info@example.com</a>
+              <span className="font-semibold">Email:</span> <a href="mailto:Manyasaxena2006@gmail.com" className="text-pink-500 hover:underline">info@example.com</a>
             </p>
           </div>
 
