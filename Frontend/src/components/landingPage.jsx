@@ -23,7 +23,7 @@ const LandingPage = () => {
 
       <div className="relative z-10 mt-4 flex justify-center">
         <Link to="/dandiya-night" className="bg-pink-500 text-white py-2 px-6 rounded-full hover:bg-pink-600 transition duration-300">
-          Join Dandiya Night Event 2024
+          Join Bollywood Dandiya Night Event 2024
         </Link>
       </div>
 
