@@ -31,7 +31,7 @@ const Events = () => {
 
         {/* Marathon Section */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-6 text-pink-500">Marathon Events</h2>
+          <h2 className="text-3xl font-bold text-center mb-6 text-pink-500">Marathon and Yoga Events</h2>
           <p className="text-center text-white mb-8">
             Join us in the spirit of fitness and fun! Our Marathon events are designed to inspire and energize. 
             Whether you're a seasoned runner or just starting, we create an inclusive environment where everyone can thrive. 
