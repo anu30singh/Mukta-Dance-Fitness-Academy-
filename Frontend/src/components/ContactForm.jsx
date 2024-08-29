@@ -27,18 +27,14 @@ const ContactForm = () => {
           <div>
             <h3 className="text-xl font-bold mb-2">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
+              <a href="https://www.facebook.com/ZinMukta/videos/mukta-dance-fitness-academy-dwarka-sec-9-online-offline-session-with-certified-f/303138727901865/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
                 <i className="fab fa-facebook-f"></i> Facebook
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
-                <i className="fab fa-twitter"></i> Twitter
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
+             
+              <a href="https://www.instagram.com/zin_mukta/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
                 <i className="fab fa-instagram"></i> Instagram
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-500">
-                <i className="fab fa-linkedin-in"></i> LinkedIn
-              </a>
+              
             </div>
           </div>
         </div>
