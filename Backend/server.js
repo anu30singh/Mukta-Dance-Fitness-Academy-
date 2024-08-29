@@ -2,24 +2,11 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-require('dotenv').config(); // Load environment variables from .env file
+require('dotenv').config(); 
 
 const app = express();
 app.use(bodyParser.json());
-
-app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  next();
-});
-
-app.use(cors({
-  origin: (origin, callback) => {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {      callback(new Error('Not allowed by CORS'));
-    }
-  }
-}));
+app.use(cors()); 
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -30,12 +17,12 @@ const transporter = nodemailer.createTransport({
 });
 
 app.post('/api/contact', (req, res) => {
-  const { email, subject , message } = req.body;
+  const { email, subject, message } = req.body;
 
   const mailOptions = {
     from: email, 
     to: process.env.EMAIL_USER,   
-    subject: `Contact Form Submission from ${subject}`,
+    subject: `Contact Form Submission: ${subject}`,
     text: `Message from ${subject} (${email}):\n\n${message}`
   };
 
@@ -48,7 +35,7 @@ app.post('/api/contact', (req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
