@@ -1,15 +1,14 @@
-import dandiya1 from './assets/Events/dandiya1.jpg';
-import dandiya2 from './assets/Events/dandiya2.jpg';
-import dandiya3 from './assets/Events/dandiya3.jpg';
-import marathon1 from './assets/Events/marathon1.jpg';
-import marathon2 from './assets/Events/marathon2.jpg';
-import marathon3 from './assets/Events/marathon3.jpg';
-import wedding1 from './assets/Events/wedding1.jpg';
-import wedding2 from './assets/Events/wedding2.jpg';
-import wedding3 from './assets/Events/wedding3.jpg';
-import corporate1 from './assets/Events/corporate1.jpg';
-import corporate2 from './assets/Events/corporate2.jpg';
-import corporate3 from './assets/Events/corporate3.jpg';
+import dandiya1 from '../assets/Events/dandiya1.jpg';
+import dandiya2 from '../assets/Events/dandiya2.jpg';
+import dandiya3 from '../assets/Events/dandiya3.jpg';
+import marathon1 from '../assets/Events/Marathon1.jpg';
+import marathon2 from '../assets/Events/Marathon2.jpg';
+import marathon3 from '../assets/Events/Marathon3.jpg';
+import c1 from '../assets/Events/c1.jpg';
+import c2 from '../assets/Events/c2.jpg';
+import c3 from '../assets/Events/c3.jpg';
+
+
 
 const Events = () => {
   return (
@@ -45,21 +44,6 @@ const Events = () => {
           </div>
         </section>
 
-        {/* Wedding Choreography Section */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-6 text-pink-500">Wedding Choreography</h2>
-          <p className="text-center text-white mb-8">
-            Make your special day unforgettable with our bespoke wedding choreography services. From traditional dance forms 
-            to contemporary moves, we craft performances that reflect your unique love story. Our expert choreographers work 
-            closely with you to ensure every step is perfect, creating memories that last a lifetime.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <img src={wedding1} alt="Wedding Choreography 1" className="w-full h-64 object-cover rounded-lg shadow-lg" />
-            <img src={wedding2} alt="Wedding Choreography 2" className="w-full h-64 object-cover rounded-lg shadow-lg" />
-            <img src={wedding3} alt="Wedding Choreography 3" className="w-full h-64 object-cover rounded-lg shadow-lg" />
-          </div>
-        </section>
-
         {/* Corporate Events Section */}
         <section>
           <h2 className="text-3xl font-bold text-center mb-6 text-pink-500">Corporate Events</h2>
@@ -69,9 +53,9 @@ const Events = () => {
             celebration, we deliver experiences that inspire and impress.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <img src={corporate1} alt="Corporate Event 1" className="w-full h-64 object-cover rounded-lg shadow-lg" />
-            <img src={corporate2} alt="Corporate Event 2" className="w-full h-64 object-cover rounded-lg shadow-lg" />
-            <img src={corporate3} alt="Corporate Event 3" className="w-full h-64 object-cover rounded-lg shadow-lg" />
+            <img src={c1} alt="Corporate Event 1" className="w-full h-64 object-cover rounded-lg shadow-lg" />
+            <img src={c2} alt="Corporate Event 2" className="w-full h-64 object-cover rounded-lg shadow-lg" />
+            <img src={c3} alt="Corporate Event 3" className="w-full h-64 object-cover rounded-lg shadow-lg" />
           </div>
         </section>
       </div>
