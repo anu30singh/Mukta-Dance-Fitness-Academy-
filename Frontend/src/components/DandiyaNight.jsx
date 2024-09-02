@@ -60,7 +60,7 @@ const DandiyaNightPage = () => {
         </div>
 
         {/* Event Content */}
-        <div className="w-full lg:w-2/5 flex flex-col justify-center px-4 py-6 md:px-8 lg:px-12 lg:py-8 text-left">
+        <div className="w-full lg:w-2/5 flex flex-col justify-center px-4 py-6 my-10 md:px-8 lg:px-12 lg:py-8 text-left">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-pink-400 drop-shadow-md animate-pulse">
             Prepare for an Unforgettable Dandiya Night!
           </h2>
@@ -89,8 +89,8 @@ const DandiyaNightPage = () => {
         </div>
       </div>
 
-      {/* Separator Line */}
-      <div className="w-full border-t-2 border-pink-600 my-8 lg:my-8"></div>
+      {/* Separator Line
+      <div className="w-full border-t-2 border-pink-600 my-8 lg:my-8"></div> */}
 
       {/* Full-Width Section with Image */}
       <div className="w-full bg-black py-16 px-6">
