@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Navigation Links */}
-                <div className={`flex-1 flex flex-col lg:flex-row lg:items-center lg:justify-center lg:space-x-4 ${isOpen ? 'block' : 'hidden lg:flex'}`}>
+                <div className={`flex-1 flex flex-col lg:flex-row lg:items-center lg:justify-center lg:space-x-12 ${isOpen ? 'block' : 'hidden lg:flex'}`}>
                     <NavLink to="/" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Home</NavLink>
                     <NavLink to="/about" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">About Us</NavLink>
                     <NavLink to="/service" className="text-white font-semibold hover:text-pink-500 hover:underline" activeClassName="underline">Services</NavLink>
