@@ -103,7 +103,7 @@ const DandiyaNightPage = () => {
             <ul className="list-disc list-inside text-lg space-y-4 text-white">
               <li>Experience vibrant Dandiya dance with a Bollywood twist.</li>
               <li>Enjoy live music and performances from top artists all night.</li>
-              <li>Meet and mingle with fellow Dandiya enthusiasts and make new friends.</li>
+              <li>Meet and mingle with fellow Dandiya enthusiasts. </li>
               <li>Participate in exciting competitions and win fabulous prizes.</li>
               <li>Delight in a range of delicious food and drinks available at the event.</li>
               <li>Join an unforgettable celebration of culture, music, and dance.</li>
