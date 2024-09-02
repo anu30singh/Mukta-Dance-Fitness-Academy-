@@ -45,7 +45,7 @@ const DandiyaNightPage = () => {
       {/* Main Content Area */}
       <div className="min-h-screen flex flex-col lg:flex-row lg:items-start lg:justify-between">
         {/* Image Slider */}
-        <div className="w-full lg:w-3/5 max-w-2xl h-80 mx-4 md:h-[450px] lg:h-[500px] mt-8 lg:mt-6 mb-8 lg:mb-0 overflow-hidden rounded-lg shadow-2xl flex-shrink-0">
+        <div className="w-full lg:w-3/5 max-w-2xl h-80 mx-4 md:h-[450px] lg:h-[500px] mt-8 lg:mt-6 mb-4 lg:mb-0 overflow-hidden rounded-lg shadow-2xl flex-shrink-0">
           <Slider {...settings} className="w-full h-full">
             {[Image1, Image2, Image3, Image4, Image5, Image6, Image7].map((img, index) => (
               <div key={index} className="flex items-center justify-center">
@@ -60,7 +60,7 @@ const DandiyaNightPage = () => {
         </div>
 
         {/* Event Content */}
-        <div className="w-full lg:w-2/5 flex flex-col justify-center px-4 py-10 md:px-8 lg:px-12 lg:py-10 text-left">
+        <div className="w-full lg:w-2/5 flex flex-col justify-center px-4 py-6 md:px-8 lg:px-12 lg:py-8 text-left">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-pink-400 drop-shadow-md animate-pulse">
             Prepare for an Unforgettable Dandiya Night!
           </h2>
@@ -90,7 +90,7 @@ const DandiyaNightPage = () => {
       </div>
 
       {/* Separator Line */}
-      <div className="w-full border-t-2 border-pink-600 my-8 lg:my-12"></div>
+      <div className="w-full border-t-2 border-pink-600 my-8 lg:my-8"></div>
 
       {/* Full-Width Section with Image */}
       <div className="w-full bg-black py-16 px-6">
