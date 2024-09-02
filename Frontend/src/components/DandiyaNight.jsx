@@ -89,8 +89,8 @@ const DandiyaNightPage = () => {
         </div>
       </div>
 
-      {/* Separator Line
-      <div className="w-full border-t-2 border-pink-600 my-8 lg:my-8"></div> */}
+      {/* Separator Line */}
+      <div className="w-full border-t-2 border-pink-600 my-8 lg:my-4"></div>
 
       {/* Full-Width Section with Image */}
       <div className="w-full bg-black py-16 px-6">
