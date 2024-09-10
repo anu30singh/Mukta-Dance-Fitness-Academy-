@@ -30,6 +30,52 @@ const Navbar = () => {
                     </button>
                 </div>
 
+                {/* Desktop Navigation Links */}
+                <div className={`hidden lg:flex flex-1 flex-col lg:flex-row lg:items-center lg:justify-center lg:space-x-12`}>
+                    <NavLink 
+                      to="/" 
+                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
+                    >
+                      Home
+                    </NavLink>
+                    <NavLink 
+                      to="/about" 
+                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
+                    >
+                      About Us
+                    </NavLink>
+                    <NavLink 
+                      to="/service" 
+                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
+                    >
+                      Services
+                    </NavLink>
+                    <NavLink 
+                      to="/gallery" 
+                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
+                    >
+                      Media
+                    </NavLink>
+                    <NavLink 
+                      to="/test" 
+                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
+                    >
+                      Reviews
+                    </NavLink>
+                    <NavLink 
+                      to="/events" 
+                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
+                    >
+                      Events
+                    </NavLink>
+                    <NavLink 
+                      to="/contactus" 
+                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
+                    >
+                      Reach Out
+                    </NavLink>
+                </div>
+
                 {/* Mobile Menu Overlay */}
                 <div 
                   className={`fixed inset-0 bg-black bg-opacity-75 lg:hidden transition-opacity duration-300 ${isOpen ? 'block' : 'hidden'}`}
@@ -88,52 +134,6 @@ const Navbar = () => {
                           Reach Out
                         </NavLink>
                     </div>
-                </div>
-
-                {/* Desktop Navigation Links */}
-                <div className={`flex-1 flex flex-col lg:flex-row lg:items-center lg:justify-center lg:space-x-12 ${isOpen ? 'hidden' : 'lg:flex'}`}>
-                    <NavLink 
-                      to="/" 
-                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
-                    >
-                      Home
-                    </NavLink>
-                    <NavLink 
-                      to="/about" 
-                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
-                    >
-                      About Us
-                    </NavLink>
-                    <NavLink 
-                      to="/service" 
-                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
-                    >
-                      Services
-                    </NavLink>
-                    <NavLink 
-                      to="/gallery" 
-                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
-                    >
-                      Media
-                    </NavLink>
-                    <NavLink 
-                      to="/test" 
-                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
-                    >
-                      Reviews
-                    </NavLink>
-                    <NavLink 
-                      to="/events" 
-                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
-                    >
-                      Events
-                    </NavLink>
-                    <NavLink 
-                      to="/contactus" 
-                      className={({ isActive }) => `text-white font-semibold hover:text-pink-400 hover:underline transition-all duration-300 ${isActive ? 'underline' : ''}`}
-                    >
-                      Reach Out
-                    </NavLink>
                 </div>
             </div>
         </nav>
