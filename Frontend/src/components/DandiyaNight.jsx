@@ -147,8 +147,11 @@ const DandiyaNightPage = () => {
         className="bg-white rounded-lg max-w-lg mx-auto mt-40 p-8 shadow-2xl text-black"
         overlayClassName="fixed inset-0 bg-black bg-opacity-50"
       >
-        <h2 className="text-xl font-bold mb-4">Tickets Coming Soon</h2>
-        <p className="mb-6">We will be starting the ticket purchase process soon. Stay tuned for more details!</p>
+        <h2 className="text-xl font-bold mb-4">Tickets Are Just A Call Away:9650002213</h2>
+        <p className="mb-6"> 🎫 Ticket Prices:
+Single Entry: ₹950
+Couple Entry: ₹1700 <br></br>
+♥️ Early Bird and Bulk Booking Discounts Available </p>
         <button 
           onClick={closeModal} 
           className="bg-pink-500 text-white py-2 px-4 rounded-full hover:bg-pink-700 transition duration-300"
