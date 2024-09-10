@@ -14,7 +14,7 @@ import Image6 from '../assets/Dandiya/dandiya7.jpeg';
 import Image7 from '../assets/Dandiya/dandiya8.jpeg';
 import WhyJoinImage from '../assets/Dandiya/why-join.png'; 
 
-// Set up Modal's root element
+
 Modal.setAppElement('#root');
 
 const DandiyaNightPage = () => {
@@ -42,9 +42,9 @@ const DandiyaNightPage = () => {
 
   return (
     <div className="bg-black text-white">
-      {/* Main Content Area */}
+      
       <div className="min-h-screen flex flex-col lg:flex-row lg:items-start lg:justify-between">
-        {/* Image Slider */}
+        
         <div className="w-full lg:w-3/5 max-w-2xl h-80 mx-4 md:h-[450px] lg:h-[500px] mt-8 lg:mt-6 mb-4 lg:mb-0 overflow-hidden rounded-lg shadow-2xl flex-shrink-0">
           <Slider {...settings} className="w-full h-full">
             {[Image1, Image2, Image3, Image4, Image5, Image6, Image7].map((img, index) => (
@@ -59,7 +59,7 @@ const DandiyaNightPage = () => {
           </Slider>
         </div>
 
-        {/* Event Content */}
+      
         <div className="w-full lg:w-2/5 flex flex-col justify-center px-4 py-6 my-10 md:px-8 lg:px-12 lg:py-8 text-left">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-pink-400 drop-shadow-md animate-pulse">
             Prepare for an Unforgettable Dandiya Night!
@@ -75,7 +75,7 @@ const DandiyaNightPage = () => {
             </button>
           </div>
 
-          {/* Follow Instagram Button */}
+          
           <div className="flex justify-start py-2">
             <a 
               href="https://www.instagram.com/mdfa_bollywood_dandiyanight/?hl=en" 
@@ -89,13 +89,31 @@ const DandiyaNightPage = () => {
         </div>
       </div>
 
-      {/* Separator Line */}
-      <div className="w-full border-t-2 border-pink-600 my-8 lg:my-4"></div>
+    
 
-      {/* Full-Width Section with Image */}
+      {/* Venue and Event Details Section */}
+      <div className="w-full bg-black py-16 px-6">
+        <div className="max-w-6xl mx-auto text-center">
+          <h3 className="text-3xl md:text-4xl font-bold mb-6 text-pink-600">
+            Event Details
+          </h3>
+          <div className="bg-gray-800 rounded-lg p-8 shadow-lg">
+            <h4 className="text-xl md:text-2xl font-bold mb-4 text-white">Venue</h4>
+            <p className="text-lg mb-6 text-gray-300">BLESSINGS GARDEN (NEAR RADHA SWAMI SATSANG), Sec 23 Dwarka, New Delhi</p>
+
+            <h4 className="text-xl md:text-2xl font-bold mb-4 text-white">Date & Time</h4>
+            <p className="text-lg mb-6 text-gray-300">Sunday, October 6, 2024<br/>Doors Open: 5:00 PM<br/>Event Ends: 11:00 PM</p>
+
+            <h4 className="text-xl md:text-2xl font-bold mb-4 text-white">Dress Code</h4>
+            <p className="text-lg mb-6 text-gray-300">Traditional or Festive Attire</p>
+          </div>
+        </div>
+      </div>
+
+  
       <div className="w-full bg-black py-16 px-6">
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row lg:items-center lg:space-x-8">
-          {/* Text Section */}
+      
           <div className="lg:w-3/5 text-left">
             <h3 className="text-3xl md:text-4xl font-bold mb-6 text-pink-600 animate-pulse">
               Why You Should Join Bollywood Dandiya 2024
@@ -110,7 +128,7 @@ const DandiyaNightPage = () => {
             </ul>
           </div>
 
-          {/* Image Section */}
+          
           <div className="lg:w-2/5 mt-8 lg:mt-0">
             <img 
               src={WhyJoinImage} 
