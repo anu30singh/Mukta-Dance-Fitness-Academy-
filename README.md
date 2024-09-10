@@ -19,7 +19,6 @@ The Mukta Dance & Fitness Academy website is designed to provide an engaging onl
 - **Home Page:** Showcases the academy's offerings with GIFs, videos, and text content.
 - **Service Component:** Details the services provided and batch schedules.
 - **Gallery:** Displays photos of events, classes, and performances.
-- **Contact Form:** Allows users to send queries directly to the academy's email.
 - **Responsive Design:** Optimized for both desktop and mobile devices using Tailwind CSS.
 
 ## Technologies Used
