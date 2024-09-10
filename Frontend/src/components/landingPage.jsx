@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet'; // Import Helmet
 
 import Landing from '../assets/Landing.gif'; 
 import LandingPageVideo from '../assets/LandingPageVideo.mp4'; 
@@ -9,6 +10,11 @@ import Logo from '../assets/Logo.png';
 const LandingPage = () => {
   return (
     <div className="bg-black text-white relative overflow-hidden min-h-screen flex flex-col">
+      <Helmet>
+        <title>Mukta Dance and Fitness Academy | Landing Page</title>
+        <meta name="description" content="Join Mukta Dance & Fitness Academy to transform your body, mind, and soul through dance and fitness. Discover our events and collaborations." />
+      </Helmet>
+
       <video
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
@@ -40,8 +46,6 @@ const LandingPage = () => {
           <p className="text-lg sm:text-xl font-light mb-4">
             Join Mukta Dance & Fitness Academy for a Journey of Grace, Strength, and Wellness
           </p>
-
-         
 
           <div className="mt-4">
             <p className="text-sm text-pink-500 font-bold">

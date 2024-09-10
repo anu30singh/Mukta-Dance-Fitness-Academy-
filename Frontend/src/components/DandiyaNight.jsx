@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import Slider from 'react-slick'; 
+import { Helmet } from 'react-helmet'; // Import Helmet
 
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
@@ -13,7 +14,6 @@ import Image5 from '../assets/Dandiya/dandiya6.jpeg';
 import Image6 from '../assets/Dandiya/dandiya7.jpeg';
 import Image7 from '../assets/Dandiya/dandiya8.jpeg';
 import WhyJoinImage from '../assets/Dandiya/why-join.png'; 
-
 
 Modal.setAppElement('#root');
 
@@ -42,6 +42,10 @@ const DandiyaNightPage = () => {
 
   return (
     <div className="bg-black text-white">
+      <Helmet>
+        <title>Bollywood Dandiya Night 2024 | Mukta Dance and Fitness</title>
+        <meta name="description" content="Join us for the Bollywood Dandiya Night 2024! Enjoy vibrant dance performances, live music, and more at BLESSINGS GARDEN, New Delhi. Tickets and event details inside." />
+      </Helmet>
       
       <div className="min-h-screen flex flex-col lg:flex-row lg:items-start lg:justify-between">
         
@@ -59,13 +63,11 @@ const DandiyaNightPage = () => {
           </Slider>
         </div>
 
-      
         <div className="w-full lg:w-2/5 flex flex-col justify-center px-4 py-6 my-10 md:px-8 lg:px-12 lg:py-8 text-left">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-pink-400 drop-shadow-md animate-pulse">
             Prepare for an Unforgettable Dandiya Night!
           </h2>
           
-          {/* Buy Tickets Now Button */}
           <div className="flex justify-start py-2">
             <button 
               onClick={openModal} 
@@ -75,7 +77,6 @@ const DandiyaNightPage = () => {
             </button>
           </div>
 
-          
           <div className="flex justify-start py-2">
             <a 
               href="https://www.instagram.com/mdfa_bollywood_dandiyanight/?hl=en" 
@@ -89,9 +90,6 @@ const DandiyaNightPage = () => {
         </div>
       </div>
 
-    
-
-      {/* Venue and Event Details Section */}
       <div className="w-full bg-black py-16 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-3xl md:text-4xl font-bold mb-6 text-pink-600">
@@ -110,10 +108,8 @@ const DandiyaNightPage = () => {
         </div>
       </div>
 
-  
       <div className="w-full bg-black py-16 px-6">
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row lg:items-center lg:space-x-8">
-      
           <div className="lg:w-3/5 text-left">
             <h3 className="text-3xl md:text-4xl font-bold mb-6 text-pink-600 animate-pulse">
               Why You Should Join Bollywood Dandiya 2024
@@ -128,7 +124,6 @@ const DandiyaNightPage = () => {
             </ul>
           </div>
 
-          
           <div className="lg:w-2/5 mt-8 lg:mt-0">
             <img 
               src={WhyJoinImage} 
@@ -139,7 +134,6 @@ const DandiyaNightPage = () => {
         </div>
       </div>
 
-      {/* Modal */}
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
