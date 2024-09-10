@@ -78,7 +78,7 @@ const Navbar = () => {
 
                 {/* Mobile Menu Overlay */}
                 <div 
-                  className={`fixed inset-0 bg-black bg-opacity-75 lg:hidden transition-opacity duration-300 ${isOpen ? 'block' : 'hidden'}`}
+                  className={`fixed inset-0 bg-black bg-opacity-75 lg:hidden transition-opacity duration-300 z-50 ${isOpen ? 'block' : 'hidden'}`}
                 >
                     <div className="flex flex-col items-center justify-center h-full space-y-6">
                         <button onClick={toggleMenu} aria-label="Close menu" className="absolute top-4 right-4 text-white text-3xl">
