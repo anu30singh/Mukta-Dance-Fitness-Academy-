@@ -58,10 +58,22 @@ const Testimonials = () => {
         <h2 className="text-4xl font-bold text-center mb-6 text-pink-500">What Our Members Say</h2>
         
         {/* 5-Star Rating Highlight */}
-        <p className="text-center text-lg font-bold text-yellow-400 mb-12">
+        <p className="text-center text-lg font-bold text-yellow-400 mb-6">
           We have a 5-star rating on Google!
         </p>
         
+        {/* Button to Google Reviews */}
+        <div className="text-center mb-12">
+          <a
+            href="https://g.co/kgs/c31tFYk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full font-bold transition-colors duration-300"
+          >
+            Add Your Review Here
+          </a>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
