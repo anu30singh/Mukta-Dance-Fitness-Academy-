@@ -12,9 +12,12 @@ const Navbar = () => {
     return (
         <nav className="bg-black p-4 border-b border-gray-800 relative">
             <div className="container mx-auto flex items-center justify-between">
-                <div className="flex-shrink-0">
-                    <img src={Logo} alt="Mukta Saxena's Academy Logo" className="w-32 h-16 sm:w-36 sm:h-20 shadow-md" />
-                </div>
+            <div className="flex-shrink-0">
+    <NavLink to="/">
+        <img src={Logo} alt="Mukta Saxena's Academy Logo" className="w-32 h-16 sm:w-36 sm:h-20 shadow-md" />
+    </NavLink>
+</div>
+
 
                 {/* Menu Toggle Button */}
                 <div className="block lg:hidden">
