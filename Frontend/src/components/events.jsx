@@ -46,7 +46,7 @@ const Events = () => {
 
         {/* Corporate Events Section */}
         <section>
-          <h2 className="text-3xl font-bold text-center mb-6 text-pink-500">Corporate Events</h2>
+          <h2 className="text-3xl font-bold text-center mb-6 text-pink-500">Corporate Events and Wedding Choreography</h2>
           <p className="text-center text-white mb-8">
             Elevate your corporate gatherings with dynamic and engaging dance performances. Our corporate event services blend 
             professionalism with creativity, ensuring your event stands out. Whether it's a team-building activity or a grand 
