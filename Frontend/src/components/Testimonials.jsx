@@ -65,7 +65,7 @@ const Testimonials = () => {
         {/* Button to Google Reviews */}
         <div className="text-center mb-12">
           <a
-            href="https://g.co/kgs/c31tFYk"
+            href="https://www.google.com/search?kgmid=/g/11vwgzcym8&hl=en-IN&q=Mukta+Dance+%26+Fitness+Academy&shndl=30&shem=lsde,vslcca&source=sh/x/loc/osrp/m5/1&kgs=364d7ca6afcb5574#lrd=0x390d1b5f92841689:0x41e0c3ed761e6125,1,,,,"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-6 rounded-full font-bold transition-colors duration-300"
