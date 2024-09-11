@@ -49,7 +49,7 @@ const LandingPage = () => {
 
           <div className="mt-4">
             <p className="text-sm text-pink-500 font-bold">
-              We are open for collaboration with fitness gyms, companies, and other organizations.
+            We welcome collaboration opportunities with fitness gyms, companies, and wellness centers.
             </p>
           </div>
         </div>
