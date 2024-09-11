@@ -68,14 +68,24 @@ const DandiyaNightPage = () => {
             Prepare for an Unforgettable Dandiya Night!
           </h2>
           
-          <div className="flex justify-start py-2">
+          {/* <div className="flex justify-start py-2">
             <button 
               onClick={openModal} 
               className="bg-gradient-to-r from-pink-500 to-pink-700 text-white py-3 px-8 rounded-full font-bold text-lg lg:text-xl hover:opacity-90 transition duration-300 shadow-2xl transform hover:scale-110"
             >
               Buy Tickets Now
             </button>
-          </div>
+          </div> */}
+          <div className="flex justify-start py-2">
+  <a 
+    href="https://wa.me/919650002213?text=Hello%2C%20I%27m%20interested%20in%20buying%20tickets%20for%20the%20Bollywood%20Dandiya%20Night%202024!" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="bg-gradient-to-r from-pink-500 to-pink-700 text-white py-3 px-8 rounded-full font-bold text-lg lg:text-xl hover:opacity-90 transition duration-300 shadow-2xl transform hover:scale-110"
+  >
+    Buy Tickets Now
+  </a>
+</div>
 
           <div className="flex justify-start py-2">
             <a 
