@@ -12,7 +12,7 @@ const LandingPage = () => {
     <div className="bg-black text-white relative overflow-hidden min-h-screen flex flex-col">
       <Helmet>
         <title>Mukta Dance and Fitness Academy | Landing Page</title>
-        <meta name="description" content="Join Mukta Dance & Fitness Academy to transform your body, mind, and soul through dance and fitness. Discover our events and collaborations." />
+        <meta name="description" content="Join Mukta Dance & Fitness Academy to transform your body, mind, and soul through dance and fitness. Discover our events and collaborations.Open to Females/Ladies of all age group" />
       </Helmet>
 
       <video
