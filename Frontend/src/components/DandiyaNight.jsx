@@ -13,7 +13,7 @@ import Image4 from '../assets/Dandiya/dandiya5.jpeg';
 import Image5 from '../assets/Dandiya/dandiya6.jpeg';
 import Image6 from '../assets/Dandiya/dandiya7.jpeg';
 import Image7 from '../assets/Dandiya/dandiya8.jpeg';
-import WhyJoinImage from '../assets/Dandiya/why-join.png'; 
+import WhyJoinImage from '../assets/Dandiya/why-join.jpeg'; 
 
 Modal.setAppElement('#root');
 
